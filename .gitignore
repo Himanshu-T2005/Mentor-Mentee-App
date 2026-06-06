@@ -1,0 +1,13 @@
+# Environment file
+implementation/.env
+
+# Virtual environment
+implementation/MMAvenv/
+
+# Python cache
+implementation/__pycache__/
+implementation/routers/__pycache__/
+
+# Archive files
+*.7z
+*.zip
