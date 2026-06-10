@@ -1,4 +1,4 @@
-# Mentor-Mentee Management System 
+# Mentor-Mentee Management System
 
 A full-stack web application designed to streamline mentorship programs within organizations and educational institutions. The platform enables mentors and mentees to connect, manage mentorship requests, track goals, and collaborate through a secure role-based system.
 
@@ -48,7 +48,9 @@ A full-stack web application designed to streamline mentorship programs within o
 * Mentorship Activity Overview
 * Profile and Status Management
 
-##  Tech Stack
+---
+
+## Tech Stack
 
 ### Frontend
 
@@ -81,8 +83,9 @@ A full-stack web application designed to streamline mentorship programs within o
 
 ---
 
-##  System Architecture
+## System Architecture
 
+```text
 Frontend (React + TypeScript)
             │
             ▼
@@ -93,9 +96,13 @@ Backend (FastAPI + Python)
             │
             ▼
  PostgreSQL Database
+```
 
-##  Project Structure
+---
 
+## Project Structure
+
+```text
 Mentor-Mentee-App/
 │
 ├── frontend/
@@ -118,7 +125,7 @@ Mentor-Mentee-App/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Clone the Repository
 
@@ -156,7 +163,7 @@ npm run dev
 
 ---
 
-## 📖 API Documentation
+## API Documentation
 
 FastAPI automatically generates API documentation.
 
@@ -174,29 +181,7 @@ http://localhost:8000/redoc
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of your application here.
-
-### Login Page
-
-![Login Page](screenshots/login.png)
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Mentor Management
-
-![Mentor Management](screenshots/mentor-management.png)
-
-### Goal Tracking
-
-![Goal Tracking](screenshots/goal-tracking.png)
-
----
-
-## 🎯 Key Functionalities
+## Key Functionalities
 
 * User Authentication & Authorization
 * Role-Based Access Control
@@ -209,9 +194,8 @@ Add screenshots of your application here.
 * REST API Integration
 * Secure Database Operations
 
----
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Real-Time Chat System
 * Video Meeting Integration
@@ -221,9 +205,8 @@ Add screenshots of your application here.
 * Docker Support
 * Cloud Deployment (AWS/Azure/GCP)
 
----
 
-## 💼 Resume Highlights
+## Resume Highlights
 
 * Developed a full-stack mentorship management platform using React, TypeScript, FastAPI, and PostgreSQL.
 * Implemented secure JWT-based authentication and role-based access control for multiple user roles.
